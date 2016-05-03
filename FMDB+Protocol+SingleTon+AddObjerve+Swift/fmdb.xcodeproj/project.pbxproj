@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32B1E5B1A9B220F009E4E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E5A1A9B220F009E4E35 /* AppDelegate.swift */; };
+		A32B1E621A9B220F009E4E35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32B1E611A9B220F009E4E35 /* Images.xcassets */; };
+		A32B1E711A9B220F009E4E35 /* fmdbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E701A9B220F009E4E35 /* fmdbTests.swift */; };
+		A32B1E841A9B22A3009E4E35 /* viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E821A9B22A3009E4E35 /* viewcontroller.swift */; };
+		A32B1E851A9B22A3009E4E35 /* viewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = A32B1E831A9B22A3009E4E35 /* viewcontroller.xib */; };
+		A32B1E881A9B23DE009E4E35 /* DBManagerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E871A9B23DE009E4E35 /* DBManagerClass.m */; };
+		A32B1E941A9B23EA009E4E35 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E8A1A9B23EA009E4E35 /* FMDatabase.m */; };
+		A32B1E951A9B23EA009E4E35 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E8C1A9B23EA009E4E35 /* FMDatabaseAdditions.m */; };
+		A32B1E961A9B23EA009E4E35 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E8E1A9B23EA009E4E35 /* FMDatabasePool.m */; };
+		A32B1E971A9B23EA009E4E35 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E901A9B23EA009E4E35 /* FMDatabaseQueue.m */; };
+		A32B1E981A9B23EA009E4E35 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E931A9B23EA009E4E35 /* FMResultSet.m */; };
+		A32B1E9A1A9B23F5009E4E35 /* PizzaSystemDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A32B1E991A9B23F5009E4E35 /* PizzaSystemDB.sqlite */; };
+		A32B1E9E1A9B250E009E4E35 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A32B1E9D1A9B250E009E4E35 /* libsqlite3.dylib */; };
+		A32B1EA11A9B2985009E4E35 /* FMDatabaseVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B1E9F1A9B2985009E4E35 /* FMDatabaseVariadic.swift */; };
+		A32B1EA21A9B2985009E4E35 /* FMDatabaseAdditionsVariadic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32B1EA01A9B2985009E4E35 /* FMDatabaseAdditionsVariadic.swift */; };
+		A35E90541CD8A76D0002EEFC /* secview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35E90521CD8A76D0002EEFC /* secview.swift */; };
+		A35E90551CD8A76D0002EEFC /* secview.xib in Resources */ = {isa = PBXBuildFile; fileRef = A35E90531CD8A76D0002EEFC /* secview.xib */; };
+		A35E90571CD8A7C20002EEFC /* MySingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35E90561CD8A7C20002EEFC /* MySingleTon.swift */; };
+		A35E905C1CD8B38C0002EEFC /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35E905A1CD8B38C0002EEFC /* thirdViewController.swift */; };
+		A35E905D1CD8B38C0002EEFC /* thirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A35E905B1CD8B38C0002EEFC /* thirdViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A32B1E6B1A9B220F009E4E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32B1E4D1A9B220F009E4E35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32B1E541A9B220F009E4E35;
+			remoteInfo = fmdb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A32B1E551A9B220F009E4E35 /* fmdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fmdb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32B1E591A9B220F009E4E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32B1E5A1A9B220F009E4E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A32B1E611A9B220F009E4E35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A32B1E6A1A9B220F009E4E35 /* fmdbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fmdbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32B1E6F1A9B220F009E4E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32B1E701A9B220F009E4E35 /* fmdbTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fmdbTests.swift; sourceTree = "<group>"; };
+		A32B1E821A9B22A3009E4E35 /* viewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewcontroller.swift; sourceTree = "<group>"; };
+		A32B1E831A9B22A3009E4E35 /* viewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = viewcontroller.xib; sourceTree = "<group>"; };
+		A32B1E861A9B23DE009E4E35 /* DBManagerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManagerClass.h; path = ../DBManagerClass.h; sourceTree = "<group>"; };
+		A32B1E871A9B23DE009E4E35 /* DBManagerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManagerClass.m; path = ../DBManagerClass.m; sourceTree = "<group>"; };
+		A32B1E891A9B23EA009E4E35 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../FMDatabase.h; sourceTree = "<group>"; };
+		A32B1E8A1A9B23EA009E4E35 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../FMDatabase.m; sourceTree = "<group>"; };
+		A32B1E8B1A9B23EA009E4E35 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ../FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A32B1E8C1A9B23EA009E4E35 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A32B1E8D1A9B23EA009E4E35 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = ../FMDatabasePool.h; sourceTree = "<group>"; };
+		A32B1E8E1A9B23EA009E4E35 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../FMDatabasePool.m; sourceTree = "<group>"; };
+		A32B1E8F1A9B23EA009E4E35 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = ../FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A32B1E901A9B23EA009E4E35 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A32B1E911A9B23EA009E4E35 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = ../FMDB.h; sourceTree = "<group>"; };
+		A32B1E921A9B23EA009E4E35 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ../FMResultSet.h; sourceTree = "<group>"; };
+		A32B1E931A9B23EA009E4E35 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../FMResultSet.m; sourceTree = "<group>"; };
+		A32B1E991A9B23F5009E4E35 /* PizzaSystemDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = PizzaSystemDB.sqlite; path = ../PizzaSystemDB.sqlite; sourceTree = "<group>"; };
+		A32B1E9C1A9B248A009E4E35 /* fmdb-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fmdb-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		A32B1E9D1A9B250E009E4E35 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A32B1E9F1A9B2985009E4E35 /* FMDatabaseVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMDatabaseVariadic.swift; path = ../FMDatabaseVariadic.swift; sourceTree = "<group>"; };
+		A32B1EA01A9B2985009E4E35 /* FMDatabaseAdditionsVariadic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMDatabaseAdditionsVariadic.swift; path = ../FMDatabaseAdditionsVariadic.swift; sourceTree = "<group>"; };
+		A35E90521CD8A76D0002EEFC /* secview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secview.swift; sourceTree = "<group>"; };
+		A35E90531CD8A76D0002EEFC /* secview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secview.xib; sourceTree = "<group>"; };
+		A35E90561CD8A7C20002EEFC /* MySingleTon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySingleTon.swift; sourceTree = "<group>"; };
+		A35E905A1CD8B38C0002EEFC /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		A35E905B1CD8B38C0002EEFC /* thirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = thirdViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32B1E521A9B220F009E4E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B1E9E1A9B250E009E4E35 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32B1E671A9B220F009E4E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32B1E4C1A9B220E009E4E35 = {
+			isa = PBXGroup;
+			children = (
+				A32B1E9D1A9B250E009E4E35 /* libsqlite3.dylib */,
+				A35E90561CD8A7C20002EEFC /* MySingleTon.swift */,
+				A32B1E821A9B22A3009E4E35 /* viewcontroller.swift */,
+				A32B1E831A9B22A3009E4E35 /* viewcontroller.xib */,
+				A35E90521CD8A76D0002EEFC /* secview.swift */,
+				A35E90531CD8A76D0002EEFC /* secview.xib */,
+				A35E905A1CD8B38C0002EEFC /* thirdViewController.swift */,
+				A35E905B1CD8B38C0002EEFC /* thirdViewController.xib */,
+				A32B1E571A9B220F009E4E35 /* fmdb */,
+				A32B1E6D1A9B220F009E4E35 /* fmdbTests */,
+				A32B1E561A9B220F009E4E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32B1E561A9B220F009E4E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32B1E551A9B220F009E4E35 /* fmdb.app */,
+				A32B1E6A1A9B220F009E4E35 /* fmdbTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32B1E571A9B220F009E4E35 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				A32B1E5A1A9B220F009E4E35 /* AppDelegate.swift */,
+				A32B1E9F1A9B2985009E4E35 /* FMDatabaseVariadic.swift */,
+				A32B1EA01A9B2985009E4E35 /* FMDatabaseAdditionsVariadic.swift */,
+				A32B1E9C1A9B248A009E4E35 /* fmdb-Bridging-Header.h */,
+				A32B1E891A9B23EA009E4E35 /* FMDatabase.h */,
+				A32B1E8A1A9B23EA009E4E35 /* FMDatabase.m */,
+				A32B1E8B1A9B23EA009E4E35 /* FMDatabaseAdditions.h */,
+				A32B1E8C1A9B23EA009E4E35 /* FMDatabaseAdditions.m */,
+				A32B1E8D1A9B23EA009E4E35 /* FMDatabasePool.h */,
+				A32B1E8E1A9B23EA009E4E35 /* FMDatabasePool.m */,
+				A32B1E8F1A9B23EA009E4E35 /* FMDatabaseQueue.h */,
+				A32B1E901A9B23EA009E4E35 /* FMDatabaseQueue.m */,
+				A32B1E911A9B23EA009E4E35 /* FMDB.h */,
+				A32B1E921A9B23EA009E4E35 /* FMResultSet.h */,
+				A32B1E931A9B23EA009E4E35 /* FMResultSet.m */,
+				A32B1E861A9B23DE009E4E35 /* DBManagerClass.h */,
+				A32B1E871A9B23DE009E4E35 /* DBManagerClass.m */,
+				A32B1E611A9B220F009E4E35 /* Images.xcassets */,
+				A32B1E581A9B220F009E4E35 /* Supporting Files */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		A32B1E581A9B220F009E4E35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32B1E591A9B220F009E4E35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A32B1E6D1A9B220F009E4E35 /* fmdbTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32B1E701A9B220F009E4E35 /* fmdbTests.swift */,
+				A32B1E991A9B23F5009E4E35 /* PizzaSystemDB.sqlite */,
+				A32B1E6E1A9B220F009E4E35 /* Supporting Files */,
+			);
+			path = fmdbTests;
+			sourceTree = "<group>";
+		};
+		A32B1E6E1A9B220F009E4E35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32B1E6F1A9B220F009E4E35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32B1E541A9B220F009E4E35 /* fmdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32B1E741A9B220F009E4E35 /* Build configuration list for PBXNativeTarget "fmdb" */;
+			buildPhases = (
+				A32B1E511A9B220F009E4E35 /* Sources */,
+				A32B1E521A9B220F009E4E35 /* Frameworks */,
+				A32B1E531A9B220F009E4E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fmdb;
+			productName = fmdb;
+			productReference = A32B1E551A9B220F009E4E35 /* fmdb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32B1E691A9B220F009E4E35 /* fmdbTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32B1E771A9B220F009E4E35 /* Build configuration list for PBXNativeTarget "fmdbTests" */;
+			buildPhases = (
+				A32B1E661A9B220F009E4E35 /* Sources */,
+				A32B1E671A9B220F009E4E35 /* Frameworks */,
+				A32B1E681A9B220F009E4E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32B1E6C1A9B220F009E4E35 /* PBXTargetDependency */,
+			);
+			name = fmdbTests;
+			productName = fmdbTests;
+			productReference = A32B1E6A1A9B220F009E4E35 /* fmdbTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32B1E4D1A9B220F009E4E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = macpc;
+				TargetAttributes = {
+					A32B1E541A9B220F009E4E35 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A32B1E691A9B220F009E4E35 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A32B1E541A9B220F009E4E35;
+					};
+				};
+			};
+			buildConfigurationList = A32B1E501A9B220F009E4E35 /* Build configuration list for PBXProject "fmdb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32B1E4C1A9B220E009E4E35;
+			productRefGroup = A32B1E561A9B220F009E4E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32B1E541A9B220F009E4E35 /* fmdb */,
+				A32B1E691A9B220F009E4E35 /* fmdbTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32B1E531A9B220F009E4E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35E905D1CD8B38C0002EEFC /* thirdViewController.xib in Resources */,
+				A32B1E851A9B22A3009E4E35 /* viewcontroller.xib in Resources */,
+				A32B1E9A1A9B23F5009E4E35 /* PizzaSystemDB.sqlite in Resources */,
+				A35E90551CD8A76D0002EEFC /* secview.xib in Resources */,
+				A32B1E621A9B220F009E4E35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32B1E681A9B220F009E4E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32B1E511A9B220F009E4E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35E90541CD8A76D0002EEFC /* secview.swift in Sources */,
+				A35E90571CD8A7C20002EEFC /* MySingleTon.swift in Sources */,
+				A32B1E881A9B23DE009E4E35 /* DBManagerClass.m in Sources */,
+				A32B1E961A9B23EA009E4E35 /* FMDatabasePool.m in Sources */,
+				A35E905C1CD8B38C0002EEFC /* thirdViewController.swift in Sources */,
+				A32B1E841A9B22A3009E4E35 /* viewcontroller.swift in Sources */,
+				A32B1E971A9B23EA009E4E35 /* FMDatabaseQueue.m in Sources */,
+				A32B1E5B1A9B220F009E4E35 /* AppDelegate.swift in Sources */,
+				A32B1E941A9B23EA009E4E35 /* FMDatabase.m in Sources */,
+				A32B1E981A9B23EA009E4E35 /* FMResultSet.m in Sources */,
+				A32B1E951A9B23EA009E4E35 /* FMDatabaseAdditions.m in Sources */,
+				A32B1EA21A9B2985009E4E35 /* FMDatabaseAdditionsVariadic.swift in Sources */,
+				A32B1EA11A9B2985009E4E35 /* FMDatabaseVariadic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32B1E661A9B220F009E4E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32B1E711A9B220F009E4E35 /* fmdbTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A32B1E6C1A9B220F009E4E35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32B1E541A9B220F009E4E35 /* fmdb */;
+			targetProxy = A32B1E6B1A9B220F009E4E35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A32B1E721A9B220F009E4E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A32B1E731A9B220F009E4E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32B1E751A9B220F009E4E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = fmdb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fmdb-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A32B1E761A9B220F009E4E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = fmdb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fmdb-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A32B1E781A9B220F009E4E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fmdbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fmdb.app/fmdb";
+			};
+			name = Debug;
+		};
+		A32B1E791A9B220F009E4E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fmdbTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fmdb.app/fmdb";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32B1E501A9B220F009E4E35 /* Build configuration list for PBXProject "fmdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32B1E721A9B220F009E4E35 /* Debug */,
+				A32B1E731A9B220F009E4E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32B1E741A9B220F009E4E35 /* Build configuration list for PBXNativeTarget "fmdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32B1E751A9B220F009E4E35 /* Debug */,
+				A32B1E761A9B220F009E4E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32B1E771A9B220F009E4E35 /* Build configuration list for PBXNativeTarget "fmdbTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32B1E781A9B220F009E4E35 /* Debug */,
+				A32B1E791A9B220F009E4E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32B1E4D1A9B220F009E4E35 /* Project object */;
+}
